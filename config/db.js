@@ -1,12 +1,12 @@
 var conn ={
 
-  host: '',
+  host: 'portcartdb.cs2mr6h6zv43.ap-south-1.rds.amazonaws.com',
 
-  user: '', /* MySQL User */
+  user: 'p0r1car1', /* MySQL User */
 
-  password: '', /* MySQL Password */
+  password: 'pn3nu0x3Lk8uJr6Y', /* MySQL Password */
 
-  database: '' /* MySQL Database */
+  database: 'pcretailoperator' /* MySQL Database */
 
 };
 var mysql =  require('mysql');

@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 router = express.Router();
 var sampleRouter = require(__dirname +'/app/routes/sampleRoutes');
-app.use('/simple', sampleRouter.router);
+app.use('/sample', sampleRouter.router);
 
 app.listen(port, console.log(`server is running on port ${port}`));
 
